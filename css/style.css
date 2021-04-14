@@ -1,0 +1,21 @@
+.Game-container {
+    width: 640px;
+    height: 640px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Game-cell {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    cursor: pointer;
+    background-size: 100%;
+}
+
+.Game-cell:hover {
+    background-color: red;
+}
